@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+import logo from '../../logo.svg';
 import './App.css';
+
+import { SearchBar } from '../SearchBar/SearchBar'
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         >
           Learn React
         </a>
+      <SearchBar />
       </header>
+
     </div>
   );
 }
